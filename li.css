@@ -1,1 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(homeback.avif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
 
+.menu-bar {
+    background-color: green;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    float: left;
+    width: 20%;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+.hero {
+    background-color: #074f57;
+    background-image:url(best\ back.avif);
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img {
+    background-size: cover;
+}
+.swiper-pagination {
+    color: #fff;
+}
+#home {
+    text-align: center;
+    font-size: larger;
+}
+#home h1 {
+    font-size: 50px;
+}
+#home p {
+    font-style: italic;
+}
+#about {
+    background-color: blueviolet;
+    background-image: url(aboutback.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-blend-mode: multiply;
+    color: white;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    text-align: center;
+    font-size: larger;
+}
+#about h1 {
+    font-size: 50px;
+}
+#about p {
+    font-style: italic;
+}
+#contact {
+    background-color: burlywood;
+    background-image: url(contact\ back.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-blend-mode: multiply;
+    color: #fff;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    text-align: center;
+    font-size: larger;
+}
+#contact h1 h2 {
+    font-size: 40px;
+}
+#contact p {
+    font-style: italic;
+    color: blue;
+}
+#about p {
+    font-style: italic;
+}
+#departments {
+    background-color: hotpink;
+    background-image: url(depart.avif);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-blend-mode: multiply;
+    color: blanchedalmond;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    text-align: center;
+    font-size: larger;
+}
+#departments h1 {
+    font-size: 40px;
+}
+#departments p {
+    font-style: italic;
+}
+#faq {
+    background-color: lightcoral;
+    background-image: url(faq2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-blend-mode: multiply;
+    color: cornflowerblue;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    text-align: center;
+    font-size: larger;
+}
+#faq h1 {
+    font-size: 40px;
+}
+#faq p {
+    font-style: italic;
+}
